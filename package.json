@@ -1,0 +1,19 @@
+{
+  "name": "website-v2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-handlebars": "^3.0.0",
+    "hbs": "~4.0.1",
+    "heroku-ssl-redirect": "*",
+    "mongoose": "^4.11.9",
+    "nodemailer": "4.0.1",
+    "stripe": "^4.23.2"
+  }
+}
